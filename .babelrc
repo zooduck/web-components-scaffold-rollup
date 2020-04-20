@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env", // @NOTE: Dependency on regenerator-runtime is negated by passing the below options to this preset
+            {
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ],
+        "@babel/preset-typescript"
+    ]
+}

@@ -1,0 +1,14 @@
+.example-component__button {
+    cursor: pointer;
+    box-shadow: -5px 5px black;
+    user-select: none;
+}
+.example-component__button[type=submit] {
+    background: violet;
+    color: black;
+    text-transform: uppercase;
+}
+.example-component__button:active {
+    box-shadow: 0px 0px;
+    transform: translate(-5px, 5px);
+}

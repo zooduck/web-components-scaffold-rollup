@@ -1,0 +1,52 @@
+<!-- DO NOT DELETE THIS FILE -->
+<!-- DO NOT DELETE THIS FILE -->
+<!-- DO NOT DELETE THIS FILE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Components Playground</title>
+    <style>
+        .examples {
+            display: grid;
+            grid-gap: 10px;
+            justify-content: center;
+            justify-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .examples__title {
+            background-color: lavender;
+            padding: 10px;
+        }
+
+        #example_5 {
+            --border: 10px double cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="web-components-example.umd.js" type="module"></script>
+
+    <section class="examples">
+        <h1 class="examples__title">&lt;example-button&gt;</h1>
+        <example-button></example-button>
+        <example-button exampletext="examplesize=small" examplesize="small">
+        </example-button>
+        <example-button exampletext="examplesize=medium" examplesize="medium">
+        </example-button>
+        <example-button exampletext="examplesize=large" examplesize="large">
+        </example-button>
+        <example-button exampletext="exampletype=submit" exampletype="submit"></example-button>
+        <example-button id="example_5"
+            exampletext="examplebuttoncolor=rebeccapurple | exampletextcolor=white | examplesize=large | --border: solid 10px cornflowerblue"
+            examplebuttoncolor="rebeccapurple" exampletextcolor="white" examplesize="large"></example-button>
+        <example-button exampletext="examplefont=courier" examplefont="courier"></example-button>
+    </section>
+
+</body>
+
+</html>
