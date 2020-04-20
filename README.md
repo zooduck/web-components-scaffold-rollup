@@ -1,7 +1,11 @@
 # web-components-scaffold-rollup
 
 ### Install
-```npx yarn```
+```
+npx yarn
+```
 
 ### Build
-```npm run build```
+```
+npm run build
+```
